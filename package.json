@@ -1,0 +1,29 @@
+{
+  "name": "snorkleface.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtisMorice/Snorkleface.git"
+  },
+  "keywords": [
+    "curtis",
+    "morice",
+    "snorkleface"
+  ],
+  "author": "Curtis Morice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtisMorice/Snorkleface/issues"
+  },
+  "homepage": "https://github.com/CurtisMorice/Snorkleface#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
