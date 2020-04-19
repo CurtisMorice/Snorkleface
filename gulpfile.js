@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const browserSync = require('browser-sync');
+const browserSync = require('browser-sync').create();
 
 // compile html
 // compile scss into css
@@ -21,8 +21,8 @@ function watch() {
 			}
 });
 	gulp.watch('./styles/*.scss', style);
-	gulp.watch('./*html').on('change', browserSync.reload);
-	gulp.watch('./src/**/*.html').on('change', browserSync.reload);
+	gulp.watch('./*.html').on('change', browserSync.reload);
+	gulp.watch('./src/html/**/*.html').on('change', browserSync.reload);
 	gulp.watch('./src/js/**/*.js').on('change', browserSync.reload);
 }
 
