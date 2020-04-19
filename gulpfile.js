@@ -20,7 +20,7 @@ function watch() {
 			baseDir: './'
 			}
 });
-	gulp.watch('./styles/*.scss');
+	gulp.watch('./styles/*.scss', style);
 	gulp.watch('./*html').on('change', browserSync.reload);
 	gulp.watch('./src/**/*.html').on('change', browserSync.reload);
 	gulp.watch('./src/js/**/*.js').on('change', browserSync.reload);
