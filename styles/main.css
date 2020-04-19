@@ -1,6 +1,7 @@
 body,
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #222;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -16,28 +17,32 @@ h1 {
 
 h2 {
   font-size: 40px;
-  color: rgb(153, 227, 245);
+  color: #99e3f5;
   text-align: center;
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   padding: 25px;
   border-bottom: 1px solid #fff;
   background-color: #222222;
   position: fixed;
+}
 
-  nav {
-    margin: 0 50px;
+header nav {
+  margin: 0 50px;
+}
 
-    a {
-      font-weight: 700;
-      padding: 10px;
-      cursor: pointer;
-    }
-  }
+header nav a {
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
 }
 
 section {
@@ -45,49 +50,56 @@ section {
   padding: 20px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid rgb(255, 166, 166);
-  flex-direction: column;
+  border: 1px solid #ffa6a6;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
-  div {
-    flex-direction: column;
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    justify-content: center;
-  }
+section div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
-  div>p {
-    width: 100%;
-    padding: 15px;
-    color: #fff;
-    font-size: 1.3em;
-    line-height: 1.3em;
-    text-indent: 10px;
-  }
+section div > p {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  text-indent: 10px;
+}
 
-  a {
-    color: lightblue;
-  }
+section a {
+  color: lightblue;
 }
 
 .parallax {
   background-attachment: fixed;
-  ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
 
-  h3 {
-    font-family: 'Six Caps', sans-serif;
-    font-size: 50px;
-    letter-spacing: 3px;
-    padding-top: 200px;
-    padding-left: 620px;
-    color: #fff;
-    font-weight: 900;
-  }
+.parallax h3 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding-top: 200px;
+  padding-left: 620px;
+  color: #fff;
+  font-weight: 900;
 }
 
 .sisyphus {
@@ -101,7 +113,6 @@ section {
 .cafe-curt {
   background-image: url("/assets/cafe_curt.jpg");
   min-height: 400px;
-
 }
 
 .peaks {
@@ -123,3 +134,4 @@ section {
   background-position: top;
   min-height: 400px;
 }
+/*# sourceMappingURL=main.css.map */
