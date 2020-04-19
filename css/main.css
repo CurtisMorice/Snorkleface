@@ -48,6 +48,8 @@ section {
     padding: 20px;
     color: #fff;
     font-size: 1em; }
+  section a {
+    color: lightblue; }
 
 .parallax {
   background-attachment: fixed;
