@@ -103,7 +103,7 @@ section a {
 }
 
 .sisyphus {
-  background-image: url("/assets/sisyphus_tables.jpg");
+  background-image: url("../../assets/sisyphus_tables.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: top;
@@ -111,24 +111,24 @@ section a {
 }
 
 .cafe-curt {
-  background-image: url("/assets/cafe_curt.jpg");
+  background-image: url("../../assets/cafe_curt.jpg");
   min-height: 400px;
 }
 
 .peaks {
-  background-image: url("/assets/3_peaks.jpg");
+  background-image: url("../../assets/3_peaks.jpg");
   padding-bottom: 200px;
   min-height: 600px;
 }
 
 .pond {
-  background-image: url("/assets/laCluza_pond.jpg");
+  background-image: url("../../assets/laCluza_pond.jpg");
   padding-bottom: 200px;
   min-height: 600px;
 }
 
 .snorkleface {
-  background-image: url("/assets/snorkleface.jpg");
+  background-image: url("../../assets/snorkleface.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: top;
