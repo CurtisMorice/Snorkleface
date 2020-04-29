@@ -123,3 +123,16 @@ section {
   background-position: top;
   min-height: 400px;
 }
+
+footer {
+  flex-direction: column;
+  .instagram_img {
+    background-color: aquamarine;
+    border-radius: 50px;
+  }
+
+  .github_img {
+    border-radius: 50px;
+    background-color: #fff;
+  }
+}
