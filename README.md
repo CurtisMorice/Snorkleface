@@ -75,8 +75,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CurtisMorice/Snorkleface/)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/projecttemplate=https://github.com/CurtisMorice/Snorkleface/)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
