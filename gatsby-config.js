@@ -10,9 +10,11 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-transformer-remark`,
       options: {
         name: `assets`,
-        path: path.join(__dirname,`assets`),
+        path: path.join(__dirname, `assets`),
+        plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
     `gatsby-transformer-pdf`,

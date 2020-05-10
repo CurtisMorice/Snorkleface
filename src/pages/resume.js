@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FaAngleLeft } from "react-icons/fa"
 import "../styles/reset.css"
 import "../styles/main.scss"
 import { useStaticQuery, graphql } from "gatsby"
@@ -10,14 +11,15 @@ const ResumePage = () => {
       pdf: file(name: { eq: "curtismorice_fs_resume" }) {
         name
         extension
-        publicURL
       }
     }
   `)
-  return(
+  return (
     <div>
       <div>
-        <Link to="/">Main</Link>
+        <Link to="/">
+          <FaAngleLeft /> Main
+        </Link>
       </div>
       <div>
         <Resume data={data} />
