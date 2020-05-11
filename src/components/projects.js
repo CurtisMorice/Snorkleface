@@ -31,7 +31,7 @@ const Projects = () => {
     <section style={{backgroundColor:'#FFF'}}>
       <div className="inner-wrapper" style={{ width:'85%'}}>
         <h2 style={{color:'crimson', fontSize:'50px'}}>Practiced Technologies</h2>
-        {logoArray.map((logo, id) => <img key={id} src={logo} description='logo' height={200} width={305} style={{margin:'50px'}}/>)}
+        {logoArray.map((logo, id) => <img key={id} src={logo} description='logo' height={100} width={205} style={{margin:'50px'}}/>)}
       </div>
     </section>
   )
