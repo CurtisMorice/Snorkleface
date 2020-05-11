@@ -2,7 +2,7 @@ import React from 'react';
 
 const CareerHistory = () => {
   return (
-    <section>
+    <section style={{ backgroundColor: 'darkcyan' }}>
       <div className="inner-wrapper">
         <h2> Career History </h2>
         <p>
