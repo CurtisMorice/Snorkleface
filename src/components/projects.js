@@ -29,9 +29,11 @@ const logoArray = [
 const Projects = () => {
   return (
     <section style={{ backgroundColor: '#FFF' }}>
-      <div className="inner-wrapper" style={{ width: '85%' }}>
-        <h2 style={{ color: 'crimson', fontSize: '50px' }}>Practiced Technologies</h2>
-        {logoArray.map((logo, id) => <img key={id} src={logo} description='logo' alt="technology logos" height={100} width={205} style={{ margin: '50px' }} />)}
+      <div className="inner-wrapper">
+        <h2 style={{ color: 'crimson' }}>Practiced Technologies</h2>
+        <div className="logo-container">
+          {logoArray.map((logo, id) => <img key={id} src={logo} description='logo' alt="technology logos" height={100} width={205} style={{ margin: '50px' }} />)}
+        </div>
       </div>
     </section>
   )

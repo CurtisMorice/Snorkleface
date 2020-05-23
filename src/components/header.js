@@ -1,7 +1,6 @@
 /*jshint esversion: 6 */
 import * as React from 'react';
 import { Link, graphql, useStaticQuery } from "gatsby";
-import { FaHouseDamage, FaAddressCard, FaBriefcase } from "react-icons/fa";
 import '../styles/header.scss'
 /**************************** HEADER ANIMATION ****************************************/
 
@@ -48,13 +47,10 @@ const Header = () => {
       </a>
       <nav>
         <a href="#About_Curtis"> About Me
-        <FaHouseDamage />
         </a>
         <Link to="/resume"> Résumé
-        <FaAddressCard />
         </Link>
         <Link to="/projects"> Projects
-        <FaBriefcase />
         </Link>
       </nav>
     </header>

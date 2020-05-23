@@ -3,14 +3,31 @@
   text-align: center;
 
   h2 {
+    font-family: 'Courier New', Courier, monospace;
     color: #fff;
     font-size: 30px;
     font-style: normal;
 
+    @media (max-width:600px) {
+      font-size: 20px;
+    }
   }
 
   nav {
     justify-content: center;
+
+    svg {
+      padding: 20px;
+      font-size: 50px;
+
+      @media (max-width:800px) {
+        font-size: 35px;
+      }
+
+      &:hover {
+        color: lightblue;
+      }
+    }
   }
 
   .link:hover {

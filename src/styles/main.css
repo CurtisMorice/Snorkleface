@@ -26,50 +26,9 @@ a {
   font-style: italic;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  padding: 25px;
-  border-bottom: 1px solid #fff;
-  background-color: #222222;
-  position: fixed;
-}
-
-header .animate_title {
-  opacity: 0;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  transform: translateY(100px);
-  -webkit-transform: translateY(100px);
-  display: inline-block;
-}
-
-header .colorMe {
-  opacity: 1;
-  color: #fff;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-}
-
-header nav {
-  margin: 0 50px;
-}
-
-header nav a {
-  font-weight: 700;
-  padding: 10px;
-  cursor: pointer;
-}
-
 section {
   background-color: #222222;
   padding: 20px;
-  width: 100%;
   margin: 0 auto;
   border: 1px solid #fff;
   -webkit-box-orient: vertical;
@@ -79,26 +38,24 @@ section {
 }
 
 section div {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 section div > p {
-  width: 100%;
   padding: 15px;
   color: #fff;
   font-size: 1.3em;
   line-height: 1.3em;
   text-indent: 10px;
+}
+
+@media (max-width: 800px) {
+  section div > p {
+    font-size: 1.1em;
+    text-align: center;
+  }
 }
 
 section a {
@@ -117,10 +74,18 @@ section a {
   font-family: 'Six Caps', sans-serif;
   font-size: 40px;
   letter-spacing: 3px;
-  padding-top: 200px;
-  color: #fff;
   font-weight: 900;
   width: 400px;
+}
+
+@media (max-width: 800px) {
+  .parallax h3 {
+    margin-top: 80px;
+    font-size: 35px;
+    padding: 5px;
+    letter-spacing: 3px;
+    width: 100%;
+  }
 }
 
 .sisyphus {
@@ -133,7 +98,7 @@ section a {
 
 .cafe-curt {
   background-image: url("../../static/cafe_curt.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .peaks {
@@ -148,12 +113,16 @@ section a {
   min-height: 600px;
 }
 
+.logo-container {
+  text-align: center;
+}
+
 .snorkleface {
   background-image: url("../../static/snorkleface.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: top;
-  min-height: 400px;
+  min-height: 500px;
 }
 
 footer {

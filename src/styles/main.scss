@@ -25,65 +25,30 @@ a {
   font-style: italic;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 25px;
-  border-bottom: 1px solid #fff;
-  background-color: #222222;
-  position: fixed;
 
-  .animate_title {
-    opacity: 0;
-    transition: all 1s ease;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
-    display: inline-block;
-  }
-
-  .colorMe {
-    opacity: 1;
-    color: #fff;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-  }
-
-  nav {
-    margin: 0 50px;
-
-    a {
-      font-weight: 700;
-      padding: 10px;
-      cursor: pointer;
-    }
-  }
-}
 
 section {
   background-color: #222222;
   padding: 20px;
-  width: 100%;
   margin: 0 auto;
   border: 1px solid #fff;
   flex-direction: column;
 
   div {
-    flex-direction: column;
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 20px;
     justify-content: center;
   }
 
   div>p {
-    width: 100%;
     padding: 15px;
     color: #fff;
     font-size: 1.3em;
     line-height: 1.3em;
     text-indent: 10px;
+
+    @media(max-width: 800px) {
+      font-size: 1.1em;
+      text-align: center;
+    }
   }
 
   a {
@@ -105,10 +70,16 @@ section {
     font-family: 'Six Caps', sans-serif;
     font-size: 40px;
     letter-spacing: 3px;
-    padding-top: 200px;
-    color: #fff;
     font-weight: 900;
     width: 400px;
+
+    @media (max-width: 800px) {
+      margin-top: 80px;
+      font-size: 35px;
+      padding: 5px;
+      letter-spacing: 3px;
+      width: 100%;
+    }
   }
 }
 
@@ -122,7 +93,7 @@ section {
 
 .cafe-curt {
   background-image: url("../../static/cafe_curt.jpg");
-  min-height: 400px;
+  min-height: 600px;
 
 }
 
@@ -138,12 +109,16 @@ section {
   min-height: 600px;
 }
 
+.logo-container {
+  text-align: center;
+}
+
 .snorkleface {
   background-image: url("../../static/snorkleface.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: top;
-  min-height: 400px;
+  min-height: 500px;
 }
 
 footer {

@@ -1,12 +1,53 @@
 header {
-  a {
-    align-self: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: 1px solid #fff;
+  background-color: #222222;
+  position: fixed;
+
+  @media(max-width: 800px) {
+    padding: 20px;
+    flex-direction: column;
+    width: -webkit-fill-available;
+
+    h1 {
+      text-align: center;
+    }
+
+    nav {
+      align-self: center;
+    }
+  }
+
+  .animate_title {
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    display: inline-block;
+  }
+
+  .colorMe {
+    opacity: 1;
+    color: #fff;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
   }
 
   nav {
+    margin: 0 50px;
+
     a {
-      display: flex;
-      flex-direction: column-reverse;
+      font-weight: 700;
+      align-self: center;
+      padding: 10px 5px;
+      cursor: pointer;
+
+      @media(max-width: 600px) {
+        width: 80px;
+      }
     }
 
     svg {

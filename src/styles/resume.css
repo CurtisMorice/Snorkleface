@@ -23,6 +23,12 @@
   font-size: 50px;
 }
 
+@media (max-width: 800px) {
+  .resume-wrapper nav svg {
+    font-size: 35px;
+  }
+}
+
 .resume-wrapper nav svg:hover {
   color: lightblue;
 }
@@ -33,5 +39,23 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+@media (max-width: 800px) {
+  .resume-wrapper img {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 650px) {
+  .resume-wrapper img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .resume-wrapper img {
+    max-width: 340px;
+  }
 }
 /*# sourceMappingURL=resume.css.map */

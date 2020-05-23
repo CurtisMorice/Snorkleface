@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Footer from '../components/footer'
 import { FaHouseDamage, FaBriefcase } from "react-icons/fa";
 import resume_p1 from "../../static/curtismorice_fs_resume_p1.jpg";
 import resume_p2 from "../../static/curtismorice_fs_resume_p2.jpg";
@@ -22,6 +23,7 @@ const ResumePage = () => {
         <img src={resume_p2} alt="resume" />
         <img src={resume_p3} alt="resume" />
       </div>
+      <Footer />
     </div >
   )
 }
