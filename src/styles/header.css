@@ -28,6 +28,7 @@ header {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    text-align: center;
   }
 }
 
@@ -52,6 +53,7 @@ header nav {
 }
 
 header nav a {
+  font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
