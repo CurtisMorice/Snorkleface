@@ -2,7 +2,7 @@ import React from 'react';
 
 const CareerHistory = () => {
   return (
-    <section style={{ backgroundColor: 'darkcyan' }}>
+    <section>
       <div className="inner-wrapper">
         <h2> Career History </h2>
         <p>
@@ -23,7 +23,7 @@ const CareerHistory = () => {
             Palentine
           </a>
           . I was 13 and I would wash dishes and stock soda machines on the
-          weekends for basball card money.I dont remember how long I worked
+          weekends for baseball card money.I dont remember how long I worked
           there but I do remember I was making $3 .80 an hour!! I know,
           right.Almost baller status.When I was 16 I got a job in a fast - food
           place called "Steak Out" and worked prepping salads, to - go kits, and

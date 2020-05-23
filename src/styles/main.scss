@@ -19,10 +19,12 @@ h2 {
   color: rgb(153, 227, 245);
   text-align: center;
 }
+
 a {
   padding: 0 5px;
   font-style: italic;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -63,7 +65,7 @@ section {
   padding: 20px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid rgb(255, 166, 166);
+  border: 1px solid #fff;
   flex-direction: column;
 
   div {
@@ -88,11 +90,8 @@ section {
     color: lightblue;
   }
 }
-.projects-wrapper {
-  iframe {
-    margin: 20px auto;
-  }
-}
+
+
 
 .parallax {
   background-attachment: fixed;
@@ -148,15 +147,31 @@ section {
 }
 
 footer {
+  padding: 10px;
   flex-direction: column;
-
-  .instagram_img {
-    background-color: aquamarine;
-    border-radius: 50px;
-  }
+  align-items: center;
 
   .github_img {
-    border-radius: 50px;
-    background-color: #fff;
+    width: 70px;
+    height: 70px;
+
+    &:hover {
+      background-color: lightblue;
+      border-radius: 50%;
+
+    }
+  }
+
+  a {
+    padding: 10px;
+
+    &:hover {
+      color: lightblue;
+    }
+  }
+
+  a:last-child {
+    color: rgb(253, 203, 39);
+    font-size: 25px;
   }
 }

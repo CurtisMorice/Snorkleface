@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutCurtis = () => {
   return (
-    <section style={{ backgroundColor: '#333' }}>
+    <section>
       <div className="inner-wrapper">
         <h2> About Curtis </h2> <p> Hi you beautiful person you! </p>
         <p>

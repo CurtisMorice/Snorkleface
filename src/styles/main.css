@@ -21,6 +21,11 @@ h2 {
   text-align: center;
 }
 
+a {
+  padding: 0 5px;
+  font-style: italic;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,6 +38,22 @@ header {
   border-bottom: 1px solid #fff;
   background-color: #222222;
   position: fixed;
+}
+
+header .animate_title {
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+  display: inline-block;
+}
+
+header .colorMe {
+  opacity: 1;
+  color: #fff;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
 }
 
 header nav {
@@ -50,7 +71,7 @@ section {
   padding: 20px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid #ffa6a6;
+  border: 1px solid #fff;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -94,12 +115,12 @@ section a {
 
 .parallax h3 {
   font-family: 'Six Caps', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 3px;
   padding-top: 200px;
-  padding-left: 620px;
   color: #fff;
   font-weight: 900;
+  width: 400px;
 }
 
 .sisyphus {
@@ -133,5 +154,39 @@ section a {
   padding-bottom: 200px;
   background-position: top;
   min-height: 400px;
+}
+
+footer {
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .github_img {
+  width: 70px;
+  height: 70px;
+}
+
+footer .github_img:hover {
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer a:hover {
+  color: lightblue;
+}
+
+footer a:last-child {
+  color: #fdcb27;
+  font-size: 25px;
 }
 /*# sourceMappingURL=main.css.map */

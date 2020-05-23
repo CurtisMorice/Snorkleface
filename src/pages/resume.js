@@ -1,42 +1,28 @@
-import React from "react"
-import { Link } from "gatsby"
-import { FaAngleLeft } from "react-icons/fa"
-import "../styles/reset.css"
-import "../styles/main.scss"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import { FaHouseDamage, FaBriefcase } from "react-icons/fa";
+import resume_p1 from "../../assets/curtismorice_fs_resume_p1.jpg";
+import resume_p2 from "../../assets/curtismorice_fs_resume_p2.jpg";
+import resume_p3 from "../../assets/curtismorice_fs_resume_p3.jpg";
+import '../styles/resume.scss'
 
 const ResumePage = () => {
-    const data = useStaticQuery(graphql`
-    {
-      pdf: file(name: { eq: "curtismorice_fs_resume" }) {
-        name
-        extension
-      }
-    }
-  `)
   return (
-    <div>
-      <div>
+    <div className="resume-wrapper">
+      <nav>
         <Link to="/">
-          <FaAngleLeft /> Main
+          <FaHouseDamage />
         </Link>
-      </div>
+        <Link to="/projects">
+          <FaBriefcase />
+        </Link>
+      </nav>
       <div>
-        <Resume data={data} />
+        <img src={resume_p1} alt="resume" />
+        <img src={resume_p2} alt="resume" />
+        <img src={resume_p3} alt="resume" />
       </div>
-    </div>
+    </div >
   )
-}
-class Resume extends React.Component {
-  render() {
-    return (
-    <div>
-      <a href={this.props.data.pdf.publicURL} target="_blank"  rel="noopener noreferrer">
-        Click ME
-      </a>
-      <img src="http://localhost:8000/static/03f0e953beb08d1d4ff79fe23fe48037/curtismorice_fs_resume.pdf" width="800" height="2000" alt="resume"/>
-    </div>
-    )
-  }
 }
 export default ResumePage
