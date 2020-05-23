@@ -47,9 +47,9 @@ const Header = () => {
         <h1 className="animate"> {headerData.site.siteMetadata.author} </h1>
       </a>
       <nav>
-        <Link to="/#"> About Me
+        <a href="#About_Curtis"> About Me
         <FaHouseDamage />
-        </Link>
+        </a>
         <Link to="/resume"> Résumé
         <FaAddressCard />
         </Link>

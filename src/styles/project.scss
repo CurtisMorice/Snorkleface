@@ -1,0 +1,27 @@
+.projects-wrapper {
+  background-color: #333;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .link:hover {
+    text-align: center;
+    font-style: oblique;
+    color: lightblue;
+  }
+
+
+  iframe {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

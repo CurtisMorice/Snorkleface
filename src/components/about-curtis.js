@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutCurtis = () => {
   return (
-    <section>
+    <section id="About_Curtis">
       <div className="inner-wrapper">
         <h2> About Curtis </h2> <p> Hi you beautiful person you! </p>
         <p>
@@ -34,7 +34,7 @@ const AboutCurtis = () => {
           please feel free to contact me.
         </p>
       </div>
-    </section>
+    </section >
   )
 }
 export default AboutCurtis

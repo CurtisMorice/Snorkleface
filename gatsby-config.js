@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`,
-        path: `${ __dirname }/assets/`
+        name: `static`,
+        path: `${ __dirname }/static/`
       },
     },
     `gatsby-transformer-pdf`,

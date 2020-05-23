@@ -1,0 +1,28 @@
+.projects-wrapper {
+  background-color: #333;
+  text-align: center;
+}
+
+.projects-wrapper h2 {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.projects-wrapper nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects-wrapper .link:hover {
+  text-align: center;
+  font-style: oblique;
+  color: lightblue;
+}
+
+.projects-wrapper iframe {
+  width: 80%;
+  margin: 20px auto;
+}
+/*# sourceMappingURL=project.css.map */

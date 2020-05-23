@@ -1,0 +1,26 @@
+.resume-wrapper {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  nav {
+    justify-content: center;
+
+    svg {
+      padding: 20px;
+      font-size: 50px;
+
+      &:hover {
+        color: lightblue;
+      }
+    }
+  }
+
+  img {
+    margin: 10px;
+    max-width: 850px;
+    align-self: center;
+  }
+}

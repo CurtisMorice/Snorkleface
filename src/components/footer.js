@@ -1,5 +1,5 @@
 import React from 'react';
-import Github from '../../assets/GitHub-Mark-Light-64px.png'
+import Github from '../../static/GitHub-Mark-Light-64px.png'
 
 const Footer = () => {
   return (
