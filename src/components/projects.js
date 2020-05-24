@@ -12,6 +12,7 @@ import ROR from './logos/rails-logo.svg'
 import SASS from './logos/sass.png'
 import Shopify from './logos/shopify_logo_black.png'
 import Wordpress from './logos/wordpress.png'
+import lac_dannecy_square from '../../static/lac_dannecy_square.jpg'
 const logoArray = [
   Aws,
   Backbonejs,
@@ -28,11 +29,11 @@ const logoArray = [
 ]
 const Projects = () => {
   return (
-    <section style={{ backgroundColor: '#FFF' }}>
+    <section style={{ backgroundImage: `url(${ lac_dannecy_square })` }}>
       <div className="inner-wrapper">
-        <h2 style={{ color: 'crimson' }}>Practiced Technologies</h2>
+        <h2 style={{ color: '#141A46', fontFamily: 'monospace' }}>Tech-Stack</h2>
         <div className="logo-container">
-          {logoArray.map((logo, id) => <img key={id} src={logo} description='logo' alt="technology logos" height={100} width={205} style={{ margin: '50px' }} />)}
+          {logoArray.map((logo, id) => <img key={id} src={logo} description='logo' alt="technology logos" height={100} width={205} style={{ margin: '20px' }} />)}
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ const CareerHistory = () => {
   return (
     <section>
       <div className="inner-wrapper">
-        <h2> Career History </h2>
+        <h2 style={{ color: '#f4a950' }}> Career History </h2>
         <p>
           I have had a few careers over the past 20 years and I never truly felt
           at like I was making one until I started coding I remember going to
@@ -52,7 +52,7 @@ const CareerHistory = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Annecy - Le - Vieux
+            Annecy-Le-Vieux
           </a>
           which is located in the south eastern part of the country. While I was
           there I attended a language school by the name of

@@ -22,7 +22,11 @@ header {
     width: -webkit-fill-available;
   }
   header h1 {
+    font-family: 'Alegreya', serif;
     text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: 12px 10px 18px rgba(153, 153, 153, 0.03);
   }
   header nav {
     -ms-flex-item-align: center;
@@ -33,6 +37,8 @@ header {
 }
 
 header .animate_title {
+  font-family: 'Alegreya', serif;
+  font-size: 1.5em;
   opacity: 0;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -42,6 +48,8 @@ header .animate_title {
 }
 
 header .colorMe {
+  font-family: 'Alegreya', serif;
+  font-size: 2.5em;
   opacity: 1;
   color: #fff;
   transform: translateY(0px);
@@ -55,16 +63,25 @@ header nav {
 header nav a {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
+  font-size: 1.25em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   padding: 10px 5px;
   cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+header nav a:hover {
+  color: lightblue;
 }
 
 @media (max-width: 600px) {
   header nav a {
     width: 80px;
+    font-size: 1em;
+    margin: 15px;
   }
 }
 

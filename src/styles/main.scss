@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Kanit:wght@300,500;900&display=swap');
+
 body,
 html {
   box-sizing: border-box;
   background-color: #222;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: 'Playfair Display', serif;
 }
 
-h1 {
-  font-size: 24px;
-  font-weight: 600;
-  cursor: pointer;
-  text-shadow: 12px 10px 18px rgba(153, 153, 153, 0.03);
-}
 
 h2 {
+  font-family: 'Kanit', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
   font-size: 40px;
   color: rgb(153, 227, 245);
   text-align: center;
+
+  @media(max-width: 600px) {
+    font-size: 35px;
+  }
 }
 
 section {
@@ -27,20 +30,43 @@ section {
   border: 1px solid #fff;
   flex-direction: column;
 
+  h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 1.45em;
+    letter-spacing: 2px;
+    color: #ec8b5e;
+
+    @media(max-width: 600px) {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 1.35em;
+    }
+  }
+
   div {
     justify-content: center;
   }
 
   div>p {
+    font-family: monospace;
     padding: 15px;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.3em;
     text-indent: 10px;
 
+    a {
+      color: #f4a950;
+      font-size: 1em;
+      padding: 0 8px;
+      text-decoration: underline;
+      text-underline-position: under;
+    }
+
     @media(max-width: 800px) {
-      font-size: 1.1em;
+      font-size: 1.2em;
       text-align: center;
+      border: 1px solid;
     }
   }
 
@@ -60,7 +86,7 @@ section {
   text-align: center;
 
   h3 {
-    font-family: 'Six Caps', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 40px;
     letter-spacing: 3px;
     font-weight: 900;
@@ -88,18 +114,32 @@ section {
   background-image: url("../../static/cafe_curt.jpg");
   min-height: 600px;
 
+  @media(max-width: 600px) {
+    min-height: 400px;
+  }
+
 }
 
 .peaks {
   background-image: url("../../static/3_peaks.jpg");
   padding-bottom: 200px;
   min-height: 600px;
+
+  @media(max-width: 600px) {
+    min-height: 400px;
+  }
+
 }
 
 .pond {
   background-image: url("../../static/laCluza_pond.jpg");
   padding-bottom: 200px;
   min-height: 600px;
+
+  @media(max-width: 600px) {
+    min-height: 215px;
+  }
+
 }
 
 .logo-container {

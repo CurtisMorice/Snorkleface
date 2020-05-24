@@ -4,10 +4,10 @@ const AboutCurtis = () => {
   return (
     <section id="About_Curtis">
       <div className="inner-wrapper">
-        <h2> About Curtis </h2> <p> Hi you beautiful person you! </p>
+        <h2> About Curtis </h2> <h3> Hi you beautiful person you! </h3>
         <p>
-          I am just your typical everyday, outgoing, happy, middle - aged, bald,
-          little - chunky, animal - father, tech - wannabe, man. Living life to
+          I am just your typical everyday, outgoing, happy, almost middle-aged, bald,
+          little - chunky, animal-father, tech-wannabe, man. Living life to
           the fullest with a smile on my face.You can either catch me in front
           of my computer, walking my dog, yogaing / working - out, or walking my
           dog some more. I am truly grateful for the people and animal(s) I have
