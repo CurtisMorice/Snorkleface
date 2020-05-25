@@ -64,7 +64,7 @@ const CareerHistory = () => {
             IFALPES
           </a>
           and also became an au pair to try and stay in the country.It was one
-          of the
+          of the best experiences of my life.
         </p>
       </div>
     </section>
