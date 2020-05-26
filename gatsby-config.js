@@ -1,26 +1,22 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
 
-const path = require(`path`)
-require("dotenv").config({
-  path: `.env.${ process.env.NODE_ENV }`,
-})
+const path = require(`path`);
+// let activeEnv =
+//   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+// console.log(`Using environment config: ${ activeEnv }`)
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: 'Snorkleface The Reckoning',
     author: 'Curtis Morice'
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,11 +25,9 @@ module.exports = {
         path: `${ __dirname }/static/`
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-pdf`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
   ],
 }
-  // `gatsby-plugin-sharp`,
-  // `gatsby-transformer-sharp`,
-  // `gatsby-remark-responsive-iframe`,
