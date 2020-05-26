@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import Footer from '../components/footer'
+import Footer from '../components/footer';
+import Head from "../components/head";
 import { FaHouseDamage, FaBriefcase } from "react-icons/fa";
 import resume_p1 from "../../static/curtismorice_fs_resume_p1.jpg";
 import resume_p2 from "../../static/curtismorice_fs_resume_p2.jpg";
@@ -10,6 +11,7 @@ import '../styles/resume.scss'
 const ResumePage = () => {
   return (
     <div className="resume-wrapper">
+      <Head title="Résumé" />
       <nav>
         <Link to="/">
           <FaHouseDamage />

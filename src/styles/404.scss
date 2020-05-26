@@ -1,0 +1,29 @@
+.four-O-four {
+  div {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+
+    h1,
+    p {
+      text-align: center !important;
+      padding: 20px;
+      color: coral;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

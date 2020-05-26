@@ -2,12 +2,14 @@ import React from "react"
 import Header from "../components/header"
 import AboutCurtis from "../components/about-curtis"
 import CareerHistory from "../components/career-history"
+import Head from "../components/head";
 import Projects from "../components/projects"
 import Footer from "../components/footer"
 
 const IndexPage = () => {
   return (
     <body>
+      <Head title="About-Me" />
       <Header />
 
       <div className="parallax sisyphus">

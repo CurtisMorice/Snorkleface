@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "gatsby";
 import { FaHouseDamage, FaAddressCard } from "react-icons/fa";
-import Footer from '../components/footer'
+import Footer from '../components/footer';
+import Head from "../components/head";
 import "../styles/project.scss";
 
 const ProjectsPage = () => {
   return (
     <div className="projects-wrapper">
-
+      <Head title="Projects" />
       <nav>
 
         <Link to="/">
