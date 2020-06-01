@@ -6,14 +6,14 @@ const CareerHistory = () => {
       <div className="inner-wrapper">
         <h2 style={{ color: '#f4a950' }}> Career History </h2>
         <p>
-          I have had a few careers over the past 20 years and I never truly felt
+          <span>I have had</span> a few careers over the past 20 years and I never truly felt
           at like I was making one until I started coding I remember going to
           one of my first JavaScript meet - ups and in the middle of hearing the
           main speaker I knew this is what I wanted to do for the rest of my
           working life.
         </p>
         <p>
-          Starting off in my teens I worked for a Retreat / Renewal center in
+          <span>Starting off in my teens</span> I worked for a Retreat / Renewal center in
           Florissant, Missouri called
           <a
             href="https://pallottinerenewal.org/"
@@ -30,7 +30,7 @@ const CareerHistory = () => {
           baked potatoes plus answered phones. Soo much excitement.
         </p>
         <p>
-          I ended up moving to Branson, Missouri a year and a half later and
+          <span>I ended up moving</span> to Branson, Missouri a year and a half later and
           while I was there I worked in the
           <a
             href="https://www.punchbowl.com/vendors/mo-missouri/branson/1574434/gettysburg-theatre"
@@ -45,7 +45,7 @@ const CareerHistory = () => {
           telemarketing for At&T to save money so I could move to France.
         </p>
         <p>
-          I moved to France in February of 1997 and ended up liveing there off
+          <span>I moved to France</span> in February of 1997 and ended up liveing there off
           and on for 3 years.I lived in the
           <a
             href="https://en.wikipedia.org/wiki/Annecy-le-Vieux"

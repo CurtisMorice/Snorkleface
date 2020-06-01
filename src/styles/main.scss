@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Kanit:wght@300,500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body,
 html {
@@ -10,12 +11,12 @@ html {
 
 
 h2 {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  font-size: 40px;
-  color: rgb(153, 227, 245);
+  font-size: 35px;
+  color: rgb(211, 246, 255);
   text-align: center;
 
   @media(max-width: 600px) {
@@ -25,14 +26,18 @@ h2 {
 
 section {
   background-color: #222222;
-  padding: 20px;
+  padding: 30px 150px;
   margin: 0 auto;
   border: 1px solid #fff;
   flex-direction: column;
 
+  @media(max-width: 600px) {
+    padding: 20px 30px;
+  }
+
   h3 {
     font-family: 'Alegreya', serif;
-    font-size: 1.45em;
+    font-size: 1.25em;
     letter-spacing: 2px;
     color: #ec8b5e;
 
@@ -48,19 +53,22 @@ section {
   }
 
   div>p {
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
     padding: 15px;
     color: #fff;
-    font-size: 1.6em;
+    font-size: 1.15em;
     line-height: 1.3em;
     text-indent: 10px;
 
+    span {
+      font-family: 'Roboto Mono', monospace;
+      font-weight: bold;
+    }
+
     a {
-      color: #f4a950;
-      font-size: 1em;
+      font-family: 'Roboto Mono', monospace;
+      color: rgb(211, 246, 255);
       padding: 0 8px;
-      text-decoration: underline;
-      text-underline-position: under;
     }
 
     @media(max-width: 800px) {
@@ -87,14 +95,14 @@ section {
 
   h3 {
     font-family: 'Kanit', sans-serif;
-    font-size: 40px;
+    font-size: 130px;
     letter-spacing: 3px;
     font-weight: 900;
     width: 400px;
 
     @media (max-width: 800px) {
       margin-top: 80px;
-      font-size: 35px;
+      font-size: 60px;
       padding: 5px;
       letter-spacing: 3px;
       width: 100%;

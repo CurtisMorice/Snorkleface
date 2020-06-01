@@ -14,7 +14,6 @@ header {
 
 
     h1 {
-      font-family: 'Alegreya', serif;
       text-align: center;
       font-weight: 600;
       cursor: pointer;
@@ -29,7 +28,6 @@ header {
   }
 
   .animate_title {
-    font-family: 'Alegreya', serif;
     font-size: 1.5em;
     opacity: 0;
     transition: all 1s ease;
@@ -39,8 +37,9 @@ header {
   }
 
   .colorMe {
-    font-family: 'Alegreya', serif;
-    font-size: 2.5em;
+    font-family: monospace;
+    font-size: 3.5em;
+    font-weight: bold;
     opacity: 1;
     color: #fff;
     transform: translateY(0px);
@@ -51,18 +50,33 @@ header {
     margin: 0 50px;
 
     a {
-      font-family: 'Courier New', Courier, monospace;
+      position: relative;
+      font-family: 'Roboto Mono', monospace;
+      text-decoration: none;
       font-weight: 700;
       font-size: 1.25em;
       align-self: center;
-      padding: 10px 5px;
+      padding: 10px 15px;
       cursor: pointer;
-      text-decoration: underline;
-      text-underline-position: under;
+      transition: .4s ease-in;
+      // text-decoration: underline;
+      // text-underline-position: under;
 
-      &:hover {
+      &:after {
+        display: block;
+        content: '';
+        border-bottom: solid 2px rgb(211, 246, 255);
+        transform: scaleX(0);
+        transition: transform 350ms ease-in-out;
+        transform-origin: 100% 50%
+      }
+
+      &:hover:after {
+        transform: scaleX(1);
+        transform-origin: 0 50%;
         color: lightblue;
       }
+
 
       @media(max-width: 600px) {
         width: 80px;
