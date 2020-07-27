@@ -1,22 +1,19 @@
-import React from "react";
-import { Link } from "gatsby";
-import { FaHouseDamage, FaAddressCard } from "react-icons/fa";
-import Footer from '../components/footer';
-import Head from "../components/head";
-import "../styles/project.scss";
+import React from "react"
+import { Link } from "gatsby"
+import { FaHouseDamage, FaAddressCard } from "react-icons/fa"
+import Footer from "../components/footer"
+import Head from "../components/head"
+import "../styles/project.scss"
 
 const ProjectsPage = () => {
   return (
     <div className="projects-wrapper">
       <Head title="Projects" />
       <nav>
-
         <Link to="/">
-
           <FaHouseDamage />
         </Link>
         <Link to="/resume">
-
           <FaAddressCard />
         </Link>
       </nav>
@@ -25,7 +22,6 @@ const ProjectsPage = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-
         <h2 className="link">Welspun</h2>
       </a>
       <a
@@ -33,7 +29,6 @@ const ProjectsPage = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-
         <h2 className="link">Sisyphus Industries</h2>
       </a>
       <a
@@ -41,7 +36,6 @@ const ProjectsPage = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-
         <h2 className="link">Sisyphus on Google Play</h2>
       </a>
       <a
@@ -49,7 +43,6 @@ const ProjectsPage = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-
         <h2 className="link">Dignity 4 Dementia</h2>
       </a>
       <iframe
@@ -71,13 +64,12 @@ const ProjectsPage = () => {
         height="600"
         title="Banks Electric Companies website"
         style={{
-          backgroundColor: "#fff"
+          backgroundColor: "#fff",
         }}
       />
       <Footer />
     </div>
+  )
+}
 
-  );
-};
-
-export default ProjectsPage;
+export default ProjectsPage

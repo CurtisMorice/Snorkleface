@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Kanit:wght@300,500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,600&family=Montserrat:wght@500;700;900&display=swap');
 body,
 html {
   box-sizing: border-box;
@@ -53,16 +53,15 @@ section {
   }
 
   div>p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     padding: 15px;
     color: #fff;
-    font-size: 1.15em;
+    font-size: 1.35em;
     line-height: 1.3em;
     text-indent: 10px;
 
     span {
-      font-family: 'Roboto Mono', monospace;
-      font-weight: bold;
+      font-style: italic;
     }
 
     a {
@@ -87,17 +86,16 @@ section {
 
 .parallax {
   background-attachment: fixed;
-  ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 
   h3 {
-    font-family: 'Kanit', sans-serif;
-    font-size: 130px;
-    letter-spacing: 3px;
-    font-weight: 900;
+    padding-left: 20px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-weight: 00;
     width: 400px;
 
     @media (max-width: 800px) {
@@ -155,13 +153,25 @@ section {
 }
 
 .snorkleface {
+
   background-image: url("../../static/snorkleface.jpg");
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: top;
   min-height: 500px;
 }
-
+.sisyphus {
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+}
+.snorkleface {
+    h3 {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 700;
+    }
+}
 footer {
   padding: 10px;
   flex-direction: column;

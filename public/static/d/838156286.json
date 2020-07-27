@@ -1,1 +1,1 @@
-{"data":{"site":{"siteMetadata":{"title":"Snorkleface The Reckoning","author":"Curtis Morice"}}}}
+{"errors":[{"message":"String cannot represent value: { firstName: \"Curtis\", lastName: \"Morice\" }","locations":[{"line":5,"column":7}],"path":["site","siteMetadata","author"]}],"data":{"site":{"siteMetadata":{"title":"Snorkleface The Reckoning","author":null}}}}

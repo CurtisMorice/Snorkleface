@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
-import * as React from 'react';
-import { Link, graphql, useStaticQuery } from "gatsby";
-import '../styles/header.scss'
+import * as React from "react"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import "../styles/header.scss"
 /**************************** HEADER ANIMATION ****************************************/
 
 const Header = () => {
@@ -9,8 +9,9 @@ const Header = () => {
     query {
       site {
         siteMetadata {
-          title,
-          author
+          title
+          firstName
+          lastName
         }
       }
     }
@@ -42,16 +43,21 @@ const Header = () => {
   }, [])
   return (
     <header>
-      <a href="https://github.com/CurtisMorice" target="_blank" rel="noopener noreferrer">
-        <h1 className="animate"> {headerData.site.siteMetadata.author} </h1>
+      <a
+        href="https://github.com/CurtisMorice"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h1 className="animate">
+          {headerData.site.siteMetadata.firstName}
+          &nbsp;
+          {headerData.site.siteMetadata.lastName}
+        </h1>
       </a>
       <nav>
-        <a href="#About_Curtis"> About Me
-        </a>
-        <Link to="/resume"> Résumé
-        </Link>
-        <Link to="/projects"> Projects
-        </Link>
+        <a href="#About_Curtis"> About Me</a>
+        <Link to="/resume"> Résumé</Link>
+        <Link to="/projects"> Portfolio</Link>
       </nav>
     </header>
   )
