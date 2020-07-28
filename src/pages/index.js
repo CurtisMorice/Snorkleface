@@ -9,7 +9,7 @@ import Footer from "../components/footer"
 const IndexPage = () => {
   return (
     <body>
-      <Head title="About-Me" />
+      <Head />
       <Header />
 
       <div className="parallax sisyphus">
