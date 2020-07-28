@@ -28,7 +28,7 @@ const IndexPage = () => {
 
       <div className="parallax snorkleface">
         <h3>
-          This is Snorkleface
+          This is <span>Snorkleface</span>
           <br />
           He is my smelly bubby who likes to eat wild crunchies.
         </h3>

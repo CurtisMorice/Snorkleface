@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Kanit:wght@300,500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,600&family=Montserrat:wght@500;700;900&display=swap');
 body,
 html {
@@ -11,10 +11,9 @@ html {
 
 
 h2 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   font-size: 35px;
   color: rgb(211, 246, 255);
   text-align: center;
@@ -36,7 +35,7 @@ section {
   }
 
   h3 {
-    font-family: 'Alegreya', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
     letter-spacing: 2px;
     color: #ec8b5e;
@@ -65,7 +64,7 @@ section {
     }
 
     a {
-      font-family: 'Roboto Mono', monospace;
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
       color: rgb(211, 246, 255);
       padding: 0 8px;
     }
@@ -162,11 +161,20 @@ section {
       margin-right: 270px;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
+      font-size: 55px;
+      letter-spacing: 15px;
     }
 }
 .snorkleface {
+
     h3 {
+      width: 550px;
       font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 25px;
+      letter-spacing: 15px;
+    }
+    span {
+      font-size: 30px;
       font-weight: 700;
     }
 }

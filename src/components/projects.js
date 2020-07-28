@@ -29,11 +29,13 @@ const logoArray = [
 ]
 const Projects = () => {
   return (
-    <section style={{ backgroundImage: `url(${lac_dannecy_square})` }}>
+    <section
+      style={{
+        backgroundImage: `url(${lac_dannecy_square})`,
+      }}
+    >
       <div className="inner-wrapper">
-        <h2 style={{ color: "#141A46", fontFamily: "monospace" }}>
-          Tech-Stack
-        </h2>
+        <h2 style={{ color: "#141A46", fontWeight: "700" }}>Tech-Stack</h2>
         <div className="logo-container">
           {logoArray.map((logo, id) => (
             <img
@@ -42,8 +44,8 @@ const Projects = () => {
               description="logo"
               alt="technology logos"
               height={100}
-              width={155}
-              style={{ margin: "20px" }}
+              width={100}
+              style={{ margin: "10px 20px" }}
             />
           ))}
         </div>
