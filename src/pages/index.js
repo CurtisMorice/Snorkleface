@@ -16,7 +16,7 @@ const IndexPage = () => {
         <h3> My place of employment </h3>
       </div>
 
-      <AboutCurtis id="About_Me" />
+      <AboutCurtis />
 
       <div className="parallax cafe-curt"> </div>
 

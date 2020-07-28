@@ -55,7 +55,6 @@ const Header = () => {
         </h1>
       </a>
       <nav>
-        <a href="#About_Curtis"> About Me</a>
         <Link to="/resume"> Résumé</Link>
         <Link to="/projects"> Portfolio</Link>
       </nav>

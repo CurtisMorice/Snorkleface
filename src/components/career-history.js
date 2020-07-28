@@ -1,20 +1,20 @@
-import React from 'react';
+import React from "react"
 
 const CareerHistory = () => {
   return (
     <section>
       <div className="inner-wrapper">
-        <h2 style={{ color: '#f4a950' }}> Career History </h2>
+        <h2 style={{ color: "#f4a950" }}> Career History </h2>
         <p>
-          <span>I have had</span> a few careers over the past 20 years and I never truly felt
-          at like I was making one until I started coding I remember going to
-          one of my first JavaScript meet - ups and in the middle of hearing the
-          main speaker I knew this is what I wanted to do for the rest of my
-          working life.
+          <span>I have had</span> a few careers over the past 20 years and I
+          never truly felt at like I was making one until I started coding I
+          remember going to one of my first JavaScript meet - ups and in the
+          middle of hearing the main speaker I knew this is what I wanted to do
+          for the rest of my working life.
         </p>
         <p>
-          <span>Starting off in my teens</span> I worked for a Retreat / Renewal center in
-          Florissant, Missouri called
+          <span>Starting off in my teens</span> I worked for a Retreat / Renewal
+          center in Florissant, Missouri called
           <a
             href="https://pallottinerenewal.org/"
             target="_blank"
@@ -30,8 +30,8 @@ const CareerHistory = () => {
           baked potatoes plus answered phones. Soo much excitement.
         </p>
         <p>
-          <span>I ended up moving</span> to Branson, Missouri a year and a half later and
-          while I was there I worked in the
+          <span>I ended up moving</span> to Branson, Missouri a year and a half
+          later and while I was there I worked in the
           <a
             href="https://www.punchbowl.com/vendors/mo-missouri/branson/1574434/gettysburg-theatre"
             target="_blank"
@@ -45,8 +45,8 @@ const CareerHistory = () => {
           telemarketing for At&T to save money so I could move to France.
         </p>
         <p>
-          <span>I moved to France</span> in February of 1997 and ended up liveing there off
-          and on for 3 years.I lived in the
+          <span>I moved to France</span> in February of 1997 and ended up living
+          there off and on for 3 years.I lived in the
           <a
             href="https://en.wikipedia.org/wiki/Annecy-le-Vieux"
             target="_blank"
@@ -65,6 +65,19 @@ const CareerHistory = () => {
           </a>
           and also became an au pair to try and stay in the country.It was one
           of the best experiences of my life.
+        </p>
+        <p>
+          <span>After moving back and forth from France for 3 years</span> I
+          decided to come back home and stay put for awhile. I got a job in a
+          local brewery and within a year started working construciton for my
+          fathers company
+          <a
+            href="https://en.wikipedia.org/wiki/Annecy-le-Vieux"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Norvel-Construction
+          </a>
         </p>
       </div>
     </section>
