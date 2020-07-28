@@ -13,7 +13,7 @@ const IndexPage = () => {
       <Header />
 
       <div className="parallax sisyphus">
-        <h3> My place of employment </h3>
+        <h3>SISYPHUS</h3>
       </div>
 
       <AboutCurtis />
