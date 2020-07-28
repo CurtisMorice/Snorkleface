@@ -17,34 +17,36 @@ const ProjectsPage = () => {
           <FaAddressCard />
         </Link>
       </nav>
-      <a
-        href="https://www.welspun.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h2 className="link">Welspun</h2>
-      </a>
-      <a
-        href="https://webcenter.sisyphus-industries.com/users/sign_in"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h2 className="link">Sisyphus Industries</h2>
-      </a>
-      <a
-        href="https://play.google.com/store/apps/details?id=com.sisbot.sisyphus&hl=en_US"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h2 className="link">Sisyphus on Google Play</h2>
-      </a>
-      <a
-        href="https://dignity4dementia.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h2 className="link">Dignity 4 Dementia</h2>
-      </a>
+      <div>
+        <a
+          href="https://www.welspun.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="link">Welspun</h2>
+        </a>
+        <a
+          href="https://webcenter.sisyphus-industries.com/users/sign_in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="link">Sisyphus Industries</h2>
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.sisbot.sisyphus&hl=en_US"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="link">Sisyphus on Google Play</h2>
+        </a>
+        <a
+          href="https://dignity4dementia.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="link">Dignity 4 Dementia</h2>
+        </a>
+      </div>
       <iframe
         src="https://dignity4dementia.com/"
         width="900"
