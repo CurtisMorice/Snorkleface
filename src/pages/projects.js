@@ -46,28 +46,20 @@ const ProjectsPage = () => {
         >
           <h2 className="link">Dignity 4 Dementia</h2>
         </a>
+        <a
+          href="http://bankselectriccompany.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="link">Banks Electric Company</h2>
+        </a>
       </div>
+
       <iframe
         src="https://dignity4dementia.com/"
         width="900"
         height="600"
         title="dignity4dementia website"
-      />
-      <a
-        href="http://bankselectriccompany.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h2 className="link">Banks Electric Company</h2>
-      </a>
-      <iframe
-        src="http://bankselectriccompany.com/"
-        width="900"
-        height="600"
-        title="Banks Electric Companies website"
-        style={{
-          backgroundColor: "#fff",
-        }}
       />
       <Footer />
     </div>
